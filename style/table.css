@@ -1,0 +1,17 @@
+table {
+	border-collapse: collapse;
+	width: 100%;
+	font-family: monospace;
+	font-size: 15px;
+	text-align: center;
+}
+
+td {
+	width:600px;
+}
+
+th {
+	background-color: #d96459;
+	color: white;
+}
+tr:nth-child(odd) {background-color: #c7c7c3;}
