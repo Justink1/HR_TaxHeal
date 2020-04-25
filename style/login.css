@@ -1,0 +1,55 @@
+.top{
+background-color: #02264c;
+padding-left: 10px;
+padding-top: 1px;
+padding-bottom: 1px;
+padding-right: 10px;
+color: #fff;
+margin-right: auto;
+margin-left: auto;
+border: 0;
+box-sizing: border-box;
+line-height: 1em;
+font-size: 100%;
+font-family: 'Open Sans';
+}
+
+.formFill{
+display: flex;
+background-color: #ffffff;
+padding-left: 5px;
+padding-top: 5px;
+padding-bottom: 1px;
+padding-right: 10px;
+margin-right: auto;
+margin-left: auto;
+border: 0;
+box-sizing: border-box;
+line-height: 1em;
+font-size: 100%;
+font-family: 'Open Sans';
+}
+
+.formFillChild {
+    flex: 1;
+}  
+
+.formFillChild:nth-of-type(3){
+    flex: 3;
+}
+
+.formFillChild:nth-of-type(1){
+    flex: 0.5;
+}
+
+.formFillChild:nth-of-type(2){
+    flex: 0.6;
+}
+
+.Col1{
+	font-weight: bold;
+}
+
+.Col2{
+	text-align: left;
+}
